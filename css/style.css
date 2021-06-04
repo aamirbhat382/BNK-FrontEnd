@@ -123,10 +123,30 @@
     }
 }
 
-.card-img-top {
+.right-img {
     width: 100%;
-    height: 25vw;
-    object-fit: cover;
+}
+
+
+/* .left-img {
+    width: 100%;
+} */
+
+.featured-post-title {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.post-title {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.read-more {
+    text-decoration: none;
+    font-weight: bold;
 }
 
 @media (min-width: 768px) {
@@ -142,4 +162,11 @@
     .menu-button {
         display: none;
     }
+    .right-img {
+        height: 400px;
+        object-fit: cover;
+    }
+    /* .left-img {
+        width: 200px;
+    } */
 }
